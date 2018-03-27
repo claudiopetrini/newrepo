@@ -1,3 +1,4 @@
+
 module.exports = function (cb) {
   /**
   *
@@ -6,5 +7,5 @@ module.exports = function (cb) {
   *    hello: 'world'
   *  });
   */
-  return cb(null, 'Hello world ciao 2!');
+  return cb(null, context.secrets.mysecret);
 };
